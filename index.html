@@ -34,7 +34,7 @@
 </head>
 <script>
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/firebase-messaging-sw.js')
+    navigator.serviceWorker.register('firebase-messaging-sw.js')
       .then(function(registration) {
         console.log('SW registered:', registration);
       }).catch(function(err) {
